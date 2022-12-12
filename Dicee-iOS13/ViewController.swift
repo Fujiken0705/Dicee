@@ -16,7 +16,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        diceImageView1.image = #imageLiteral(resourceName: "DiceOne")
+        diceImageView2.image = #imageLiteral(resourceName: "DiceOne")
     }
     
     @IBAction func rollButtonPressed(_ sender: UIButton) {
